@@ -1,0 +1,205 @@
+[
+    {
+        "strName" : "MSVentPoweredDmg",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmVentPoweredComponents"
+    },
+	
+	
+	{
+        "strName" : "MSVentPoweredCloseStart",
+        "strTitle" : "Close",
+        "strDesc" : "[us] [starts] closing [them].",
+        "strTooltip" : "Closes [them] to prevent free exchange of gas and pressure between compartments.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [ 
+			"MSVentPoweredCloseAllow" 
+		],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "TIsVentOpen",
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : null
+    },
+    {
+        "strName" : "MSVentPoweredOpenStart",
+        "strTitle" : "Open",
+        "strDesc" : "[us] [starts] opening [them].",
+        "strTooltip" : "Opens [them] to allow free exchange of gas and pressure between compartments.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+			"MSVentPoweredOpenAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "TIsVentClosed",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+    },
+	
+	
+	
+    {
+        "strName" : "MSVentPoweredCloseAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [closes].",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0002,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsVentPoweredInstalled",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredClosed"
+    },
+	
+	
+	
+    {
+        "strName" : "MSVentPoweredOpenAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [opens].",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsVentPoweredInstalled",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredOpen"
+    },
+    {
+        "strName" : "MSVentPoweredOffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredOff"
+    },
+    {
+        "strName" : "MSVentPoweredOnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredOpen"
+    },
+	
+	
+	
+	
+	{
+        "strName" : "MSVentPoweredOpenO2Allow",
+        "strTitle" : "",
+        "strDesc" : "[us] [opens].",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsVentPoweredInstalledOn",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredOpen"
+    },
+    {
+        "strName" : "MSVentPoweredCloseO2Allow",
+        "strTitle" : "",
+        "strDesc" : "[us] [closes].",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0002,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsVentPoweredInstalledOn",
+        "CTTestThem"         : null,
+        "aLootItms"       : [],
+        "objLootModeSwitch"    : "ItmVentPoweredClosed"
+    }
+]

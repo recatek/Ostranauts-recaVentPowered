@@ -1,0 +1,42 @@
+[
+	{ 
+		"strName" : "TIsVentPoweredInstalled", 
+		"strCondName" : "", 
+		"fChance" : 1.0, 
+		"fCount" : 1.0, 
+		"aReqs" : [ "IsAirVent", "IsKang", "IsAutomated", "IsInstalled" ], 
+		"aForbids" : [ ], 
+		"aTriggers" : [ ], 
+		"bAND" : true 
+	},
+	{ 
+		"strName" : "TIsVentPoweredUninstalled", 
+		"strCondName" : "", 
+		"fChance" : 1.0, 
+		"fCount" : 1.0, 
+		"aReqs" : [ "IsAirVent", "IsKang", "IsAutomated" ], 
+		"aForbids" : [ "IsInstalled", "IsDamaged" ], 
+		"aTriggers" : [], 
+		"bAND" : true 
+	},
+	{ 
+		"strName" : "TIsVentPoweredInstalledOn", 
+		"strCondName" : "", 
+		"fChance" : 1.0, 
+		"fCount" : 1.0, 
+		"aReqs" : [ "IsAirVent", "IsKang", "IsAutomated", "IsInstalled", "IsPowered" ], 
+		"aForbids" : [], 
+		"aTriggers" : [],
+		"bAND" : true 
+	},
+	{ 
+		"strName" : "TIsVentPoweredOffInstalled", 
+		"strCondName" : "", 
+		"fChance" : 1.0, 
+		"fCount" : 1.0, 
+		"aReqs" : [ "IsAirVent", "IsKang", "IsAutomated", "IsOff", "IsInstalled" ], 
+		"aForbids" : [], 
+		"aTriggers" : [], 
+		"bAND" : true 
+	}
+]

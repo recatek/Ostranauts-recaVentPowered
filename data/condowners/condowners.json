@@ -1,0 +1,199 @@
+[
+  {
+    "strName" : "ItmVentPoweredClosed",
+    "strNameShort" : "Powered Vent",
+    "strNameFriendly" : "Powered Air Vent (Closed)",
+    "strDesc" : "The Kang PF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. This vent will automatically close when unpowered, and return to an open state when powered, allowing for direct remote signal control.",
+    "strItemDef" : "ItmVentPoweredClosed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentPoweredOpenStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTVentPoweredDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmVentPoweredClosed",
+    "jsonPI"            : "VentPowered"
+  },
+  {
+    "strName" : "ItmVentPoweredOff",
+    "strNameShort" : "Powered Vent",
+    "strNameFriendly" : "Powered Air Vent (Off)",
+    "strDesc" : "The Kang PF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. This vent will automatically close when unpowered, and return to an open state when powered, allowing for direct remote signal control.",
+    "strItemDef" : "ItmVentPoweredOff",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentPoweredOpenStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVentPoweredDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmVentPoweredClosed",
+    "jsonPI"            : "VentPowered"
+  },
+  {
+    "strName" : "ItmVentPoweredOpen",
+    "strNameShort" : "Powered Vent",
+    "strNameFriendly" : "Powered Air Vent (Open)",
+    "strDesc" : "The Kang PF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. This vent will automatically close when unpowered, and return to an open state when powered, allowing for direct remote signal control.",
+    "strItemDef" : "ItmVentPoweredOpen",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentPoweredCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "Destructable,StatDamage,ACTVentPoweredDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power",
+      "PressureSense"
+    ],
+    "strPortraitImg"  : "ItmVentPoweredOpen",
+    "jsonPI"            : "VentPowered"
+  },
+  {
+    "strName" : "ItmVentPoweredLoose",
+    "strNameShort" : "Powered Vent",
+    "strNameFriendly" : "Powered Air Vent (Loose)",
+    "strDesc" : "The Kang PF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. This vent will automatically close when unpowered, and return to an open state when powered, allowing for direct remote signal control.",
+    "strItemDef" : "ItmVentPoweredLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVentPoweredDmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVentPoweredLoose"
+  }
+]

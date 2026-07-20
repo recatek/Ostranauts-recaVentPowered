@@ -1,0 +1,102 @@
+[
+	{ 
+		"strName" : "VentPoweredClosedUndamage", 
+		"strActionCO" : "ItmVentPoweredClosed", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.", 
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" : "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ 
+			"TIsToolMortorq", 
+			"TIsToolWelding" 
+		], 
+		"aLootCOs" : [ 
+			"ItmVentPoweredClosed" 
+		], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC"
+	},
+    { 
+		"strName" : "VentPoweredOpenUndamage", 
+		"strActionCO" : "ItmVentPoweredOpen", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.", 
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" : "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ 
+			"TIsToolMortorq", 
+			"TIsToolWelding" 
+		], 
+		"aLootCOs" : [ 
+			"ItmVentPoweredOpen" 
+		], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC"
+	},
+    { 
+		"strName" : "VentPoweredOffUndamage", 
+		"strActionCO" : "ItmVentPoweredOff", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.", 
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" : "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ 
+			"TIsToolMortorq", 
+			"TIsToolWelding" 
+		], 
+		"aLootCOs" : [ 
+			"ItmVentPoweredOff" 
+		], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC"
+	},
+    { 
+		"strName" : "VentPoweredLooseUndamage", 
+		"strActionCO" : "ItmVentPoweredLoose", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.", 
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" : "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ 
+			"TIsToolMortorq", 
+			"TIsToolWelding" 
+		], 
+		"aLootCOs" : [ 
+			"ItmVentPoweredLoose" 
+		], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC"
+	}
+]

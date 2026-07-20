@@ -1,0 +1,62 @@
+[
+	{ 
+		"strName" : "ACTVentPoweredDmg", 
+		"aCOs" : [ "MSVentPoweredDmg=1.0x1" ], 
+		"aLoots"  : [], 
+		"strType" : "interaction" 
+	},
+
+
+
+	{ 
+		"strName" : "ItmVentPoweredClosed", 
+		"aCOs" : [ "ItmVentPoweredClosed=1.0x1"],
+		"aLoots" : [],
+		"strType" : "item"
+	},
+	{ 
+		"strName" : "ItmVentPoweredOpen", 
+		"aCOs" : [ "ItmVentPoweredOpen=1.0x1" ], 
+		"aLoots" : [], 
+		"strType" : "item" 
+	},
+	{
+		"strName" : "ItmVentPoweredOff", 
+		"aCOs" : [ "ItmVentPoweredOff=1.0x1" ], 
+		"aLoots" : [ ], 
+		"strType" : "item" 
+	},
+	{ 
+		"strName" : "ItmVentPoweredLoose", 
+		"aCOs" : [ "ItmVentPoweredLoose=1.0x1" ], 
+		"aLoots" : [], 
+		"strType" : "item" 
+	},
+	
+	
+	
+	{
+		"strName" : "ItmVentPoweredComponents",
+		"aCOs"    : [
+		  "ItmPartsMechSmall01=0.5x1",
+		  "ItmPartsElecSmall01=0.5x1-2",
+		  "ItmComponentMotor01=0.5x1",
+		  "ItmScrapSteel=0.5x1",
+		  "ItmScrapTrash=1.0x1"
+		],
+		"aLoots"  : [],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmVentPoweredDismantle",
+		"aCOs"    : [
+		  "ItmPartsMechSmall01=1.0x1",
+		  "ItmPartsElecSmall01=0.5x2",
+		  "ItmComponentMotor01=0.5x1",
+		  "ItmScrapSteel=1.0x1",
+		  "ItmScrapTrash=1.0x1"
+		],
+		"aLoots"  : [],
+		"strType" : "item"
+	}
+]
