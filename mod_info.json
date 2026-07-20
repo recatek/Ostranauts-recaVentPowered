@@ -2,7 +2,7 @@
   {
     "strName" : "Powered Vent",
     "strAuthor" : "recatek",
-    "strModURL" : "https://bluebottlegames.com/games/ostranauts",
+    "strModURL" : "https://github.com/recatek/Ostranauts-recaVentPowered",
     "strGameVersion" : "0.15.1.17",
     "strModVersion"  : "0.1",
     "strNotes"       : "Adds a version of the auto vent that does not automatically close, but is instead controlled entirely by signal."
