@@ -1,14 +1,14 @@
 [
   {
     "strName": "VentPowered",
-    "aInputPts"      : [
-		"PowerSource"
+    "aInputPts": [
+      "PowerSource"
     ],
     "fAmount": 7.6e-5,
     "strIntPowerOn": "MSVentPoweredOnAllow",
     "strIntPowerOff": "MSVentPoweredOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
-  } 
+    "bAllowExtPower": true
+  }
 ]

@@ -1,119 +1,143 @@
 [
-   {
-    "strName" : "ItmVentPoweredClosed",
-    "strImg"  : "ItmVentPoweredClosed",
-    "strImgNorm"  : "ItmVentPoweredClosedn",
-    "strImgDamaged" : "",
-    "strDmgColor" : "DamageTintLightBlack",
-    "fZScale"  : 0.75,
-    "nCols"  : 1,
-    "aLights": [
-      "BattRed2"
-    ],
-    "aSocketAdds"    : [
-      "TILWallDecoAdds",
-      "TILFixtureAdds",
-      "TILWallDecoAdds"
-    ],
-    "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFixture", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
-    ],
-    "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILWall", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
-    ]
-  },
   {
-    "strName" : "ItmVentPoweredLoose",
-    "strImg"  : "ItmVentPoweredLoose",
-    "strImgNorm"  : "ItmVentPoweredLoosen",
-    "strImgDamaged" : "",
-    "strDmgColor" : "DamageTintLightBlack",
-    "fZScale"  : 0.25,
-    "nCols"  : 1,
-    "aSocketAdds"    : [
+    "strName": "ItmVentPoweredLoose",
+    "strImg": "ItmVentPoweredLoose",
+    "strImgNorm": "ItmVentPoweredLoosen",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintLightBlack",
+    "fZScale": 0.25,
+    "nCols": 1,
+    "aSocketAdds": [
       "TILItemAdds",
       "TILItemAdds"
     ],
-    "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "TILItemForbids", "Blank",
-      "Blank", "TILItemForbids", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ],
-    "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ]
   },
   {
-    "strName" : "ItmVentPoweredOff",
-    "strImg"  : "ItmVentPoweredClosed",
-    "strImgNorm"  : "ItmVentPoweredClosedn",
-    "strImgDamaged" : "",
-    "strDmgColor" : "DamageTintLightBlack",
-    "fZScale"  : 0.75,
-    "nCols"  : 1,
-    "aLights": [
-    ],
-    "aSocketAdds"    : [
+    "strName": "ItmVentPoweredOff",
+    "strImg": "ItmVentPoweredClosed",
+    "strImgNorm": "ItmVentPoweredClosedn",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintLightBlack",
+    "fZScale": 0.75,
+    "nCols": 1,
+    "aLights": [],
+    "aSocketAdds": [
       "TILWallDecoAdds",
       "TILFixtureAdds",
       "TILWallDecoAdds"
     ],
-    "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFixture", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILFixture",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ],
-    "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILWall", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILWall",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ]
   },
   {
-    "strName" : "ItmVentPoweredOpen",
-    "strImg"  : "ItmVentPoweredOpen",
-    "strImgNorm"  : "ItmVentPoweredOpenn",
-    "strImgDamaged" : "",
-    "strDmgColor" : "DamageTintLightBlack",
-    "fZScale"  : 0.75,
-    "nCols"  : 1,
+    "strName": "ItmVentPoweredOpen",
+    "strImg": "ItmVentPoweredOpen",
+    "strImgNorm": "ItmVentPoweredOpenn",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintLightBlack",
+    "fZScale": 0.75,
+    "nCols": 1,
     "aLights": [
       "BattGreen2"
     ],
-    "aSocketAdds"    : [
+    "aSocketAdds": [
       "TILWallDecoAdds",
       "TILFixtureAdds",
       "TILWallDecoAdds"
     ],
-    "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFixture", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILFixture",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ],
-    "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "TILWall", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILWall",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
     ]
   }
 ]

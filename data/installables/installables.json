@@ -1,84 +1,78 @@
 [
-    {
-		"strName" : "VentPoweredInstall",
-		"strActionCO" : "ItmVentPoweredLoose",
-		"strActionGroup" : "Work",
-		"strTooltip" : "Installs item.",
-		"strInteractionTemplate" : "ACTInstallTEMP",
-		"CTThem" : "TIsVentPoweredUninstalled" ,
-		"aInputs" : [ "TIsVentPoweredUninstalled=1.0x1" ],
-		"fTargetPointRange" : 2.0,
-		"fDuration" : 0.001,
-		"bSparks" : true,
-		"aToolCTsUse" : [ "TIsToolMortorq" ],
-		"aLootCOs" : [ "ItmVentPoweredClosed" ],
-		"strStartInstall" : "ItmVentPoweredOff",
-		"strBuildType" : "HVAC",
-		"strJobType" : "install",
-		"strAllowLootCTsUs" : "CTWorkProgressHVAC",
-		"strAllowLootCTsThem" : "CONDInstallProgressx5",
-		"strProgressStat" : "StatInstallProgress",
-		"strCTThemMultCondTools" : "IsToolMortorq",
-		"strCTThemMultCondUs" : "StatInstallRateHVAC"	
+	{
+		"strName": "VentPoweredInstall",
+		"strActionCO": "ItmVentPoweredLoose",
+		"strActionGroup": "Work",
+		"strTooltip": "Installs item.",
+		"strInteractionTemplate": "ACTInstallTEMP",
+		"CTThem": "TIsVentPoweredUninstalled",
+		"aInputs": [
+			"TIsVentPoweredUninstalled=1.0x1"
+		],
+		"fTargetPointRange": 2.0,
+		"fDuration": 0.001,
+		"bSparks": true,
+		"aToolCTsUse": [
+			"TIsToolMortorq"
+		],
+		"aLootCOs": [
+			"ItmVentPoweredOpen"
+		],
+		"strStartInstall": "ItmVentPoweredOff",
+		"strBuildType": "HVAC",
+		"strJobType": "install",
+		"strAllowLootCTsUs": "CTWorkProgressHVAC",
+		"strAllowLootCTsThem": "CONDInstallProgressx5",
+		"strProgressStat": "StatInstallProgress",
+		"strCTThemMultCondTools": "IsToolMortorq",
+		"strCTThemMultCondUs": "StatInstallRateHVAC"
 	},
-    {
-		"strName" : "VentPoweredClosedUninstall",
-		"strActionCO" : "ItmVentPoweredClosed",
-		"strActionGroup" : "Work",
-		"strTooltip" : "Uninstalls item.",
-		"strInteractionTemplate" : "ACTUninstallTEMP",
-		"CTThem" : "TIsVentPoweredInstalled" ,
-		"aInputs" : [  ],
-		"fTargetPointRange" : 2.0,
-		"fDuration" : 0.001,
-		"bSparks" : true,
-		"aToolCTsUse" : [ "TIsToolMortorq" ],
-		"aLootCOs" : [ "ItmVentPoweredLoose" ],
-		"strJobType" : "uninstall",
-		"strAllowLootCTsUs" : "CTWorkProgressHVAC",
-		"strAllowLootCTsThem" : "CONDUninstallProgressx5",
-		"strProgressStat" : "StatUninstallProgress",
-		"strCTThemMultCondTools" : "IsToolMortorq",
-		"strCTThemMultCondUs" : "StatInstallRateHVAC"	
+	{
+		"strName": "VentPoweredOpenUninstall",
+		"strActionCO": "ItmVentPoweredOpen",
+		"strActionGroup": "Work",
+		"strTooltip": "Uninstalls item.",
+		"strInteractionTemplate": "ACTUninstallTEMP",
+		"CTThem": "TIsVentPoweredInstalled",
+		"aInputs": [],
+		"fTargetPointRange": 2.0,
+		"fDuration": 0.001,
+		"bSparks": true,
+		"aToolCTsUse": [
+			"TIsToolMortorq"
+		],
+		"aLootCOs": [
+			"ItmVentPoweredLoose"
+		],
+		"strJobType": "uninstall",
+		"strAllowLootCTsUs": "CTWorkProgressHVAC",
+		"strAllowLootCTsThem": "CONDUninstallProgressx5",
+		"strProgressStat": "StatUninstallProgress",
+		"strCTThemMultCondTools": "IsToolMortorq",
+		"strCTThemMultCondUs": "StatInstallRateHVAC"
 	},
-    {
-		"strName" : "VentPoweredOpenUninstall",
-		"strActionCO" : "ItmVentPoweredOpen",
-		"strActionGroup" : "Work",
-		"strTooltip" : "Uninstalls item.",
-		"strInteractionTemplate" : "ACTUninstallTEMP",
-		"CTThem" : "TIsVentPoweredInstalled" ,
-		"aInputs" : [  ],
-		"fTargetPointRange" : 2.0,
-		"fDuration" : 0.001,
-		"bSparks" : true,
-		"aToolCTsUse" : [ "TIsToolMortorq" ],
-		"aLootCOs" : [ "ItmVentPoweredLoose" ],
-		"strJobType" : "uninstall",
-		"strAllowLootCTsUs" : "CTWorkProgressHVAC",
-		"strAllowLootCTsThem" : "CONDUninstallProgressx5",
-		"strProgressStat" : "StatUninstallProgress",
-		"strCTThemMultCondTools" : "IsToolMortorq",
-		"strCTThemMultCondUs" : "StatInstallRateHVAC"	
-	},
-    {
-		"strName" : "VentPoweredOffUninstall",
-		"strActionCO" : "ItmVentPoweredOff",
-		"strActionGroup" : "Work",
-		"strTooltip" : "Uninstalls item.",
-		"strInteractionTemplate" : "ACTUninstallTEMP",
-		"CTThem" : "TIsVentPoweredInstalled" ,
-		"aInputs" : [  ],
-		"fTargetPointRange" : 2.0,
-		"fDuration" : 0.001,
-		"bSparks" : true,
-		"aToolCTsUse" : [ "TIsToolMortorq" ],
-		"aLootCOs" : [ "ItmVentPoweredLoose" ],
-		"strJobType" : "uninstall",
-		"strAllowLootCTsUs" : "CTWorkProgressHVAC",
-		"strAllowLootCTsThem" : "CONDUninstallProgressx5",
-		"strProgressStat" : "StatUninstallProgress",
-		"strCTThemMultCondTools" : "IsToolMortorq",
-		"strCTThemMultCondUs" : "StatInstallRateHVAC"	
+	{
+		"strName": "VentPoweredOffUninstall",
+		"strActionCO": "ItmVentPoweredOff",
+		"strActionGroup": "Work",
+		"strTooltip": "Uninstalls item.",
+		"strInteractionTemplate": "ACTUninstallTEMP",
+		"CTThem": "TIsVentPoweredInstalled",
+		"aInputs": [],
+		"fTargetPointRange": 2.0,
+		"fDuration": 0.001,
+		"bSparks": true,
+		"aToolCTsUse": [
+			"TIsToolMortorq"
+		],
+		"aLootCOs": [
+			"ItmVentPoweredLoose"
+		],
+		"strJobType": "uninstall",
+		"strAllowLootCTsUs": "CTWorkProgressHVAC",
+		"strAllowLootCTsThem": "CONDUninstallProgressx5",
+		"strProgressStat": "StatUninstallProgress",
+		"strCTThemMultCondTools": "IsToolMortorq",
+		"strCTThemMultCondUs": "StatInstallRateHVAC"
 	}
 ]
